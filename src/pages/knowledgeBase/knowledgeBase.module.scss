@@ -1,0 +1,93 @@
+.base{
+    background: #cdeecd;
+    height: 740px;
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #424141;
+}
+.basePicture{
+    width: 490px;
+    height: 200px;
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.info__lesson{
+    margin-top: 50px;
+}
+.radio{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.radio_box{
+    display: flex;
+    justify-content: space-around;
+}
+.answer-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.radio-item {
+  position: relative;
+  margin: 30px 0px;
+  text-align: left;
+  }
+.radio-item input[type='radio'] {
+  display: none;
+}
+.inpt{
+  padding-left: 20px;
+}
+.radio-item label {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #555353;
+}
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #277F27;
+  background-color: transparent;
+}
+.radio-item input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 9px;
+  left: 4px;
+  content: " ";
+  display: block;
+  background: #277F27;
+}
+@media screen and (max-width: 700px) {
+    .basePicture{
+        width: 350px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .basePicture{
+        width: 250px;
+        height: 250px;
+    }
+}

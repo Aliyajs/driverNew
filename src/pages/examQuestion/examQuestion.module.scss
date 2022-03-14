@@ -1,0 +1,126 @@
+.exam__question{
+    background: #cdeecd;
+    height: 150%;
+    width: auto;
+    padding: 50px 0;
+}
+.text{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #424141;
+}
+.test__blocks{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.test__circle{
+    display: flex;
+    justify-content: center;
+}
+.test__number{
+    width: 32px;
+    height: 32px;
+    background: #328432;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 1px solid black 5px;
+    padding: 2px;
+    margin: 15px;
+}
+.test__text{
+    font-size: 28px;
+    color: #424141;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-weight: 700;
+}
+.test__image{
+    width: 291px;
+    height: 235px;
+    background: url(../../../public/img/imgExam.svg);
+    margin: 0 auto;
+    box-shadow: 2px 4px 15px 3px #0000001F;
+}
+.question__text{
+    font-size: 20px;
+    line-height: 28px;
+    color: #424141;
+}
+.answer__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.radio-item {
+    position: relative;
+    margin: 30px 0px;
+    text-align: left;
+}
+.radio-item input[type='radio'] {
+    display: none;
+}
+.inpt{
+    padding-left: 20px;
+}
+.radio-item label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #555353;
+} 
+.radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #277F27;
+    background-color: transparent;
+}
+.radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 4px;
+    content: " ";
+    display: block;
+    background: #277F27;
+}
+.test__time_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #555353;
+}
+.timer__img{
+    padding: 30px 0px;
+}
+.result__test{
+    width: 128px;
+    height: 49px;
+    background: #278027;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+}

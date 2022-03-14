@@ -1,0 +1,99 @@
+.contact{
+    background: #cdeecd;
+    height: 150%;
+    width: auto;
+    padding: 50px 0;
+}
+.commant{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 15%;
+    flex-wrap: wrap;
+}
+.map{
+    width: 400px;
+    height: 400px;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #424141;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+}
+.text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.text__plan{
+    width: 170px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.call{
+    width: 16px;
+    height: 18px;
+}
+.whatsapp{
+    width: 26px;
+    height: 25px;
+}
+.gmail{
+    width: 28px;
+    height: 17px;
+}
+.geodata{
+    width: 20px;
+    height: 23px;
+}
+.plan{
+    width: 31px;
+    height: 26px;
+}
+.bottom{
+    margin-left: 19%;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    grid-gap: 8px;
+}
+.logo__img{
+    width: 31px;
+    height: 38px;
+    margin-top: 12px;
+}
+.name{
+    width: 116px;
+    height: 32px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    color: #277F27;
+}
+.footer__info{
+    width: 182px;
+    height: 83px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+@media screen and (max-width: 700px) {
+    .map {
+        width: 290px;
+        height: 250px;
+    }
+    .bottom{
+        align-items: center;
+    }
+}

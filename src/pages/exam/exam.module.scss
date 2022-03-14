@@ -1,0 +1,52 @@
+.exam{
+    background: #cdeecd;
+    height: 150%;
+    width: auto;
+    padding: 50px 0;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #424141;
+}
+.text{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #424141;
+}
+.ticket__box{
+    width: 600px;
+    margin: 0 auto;
+}
+.exam__btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;   
+    padding-bottom: 50px; 
+}
+.ticket__btn{
+    margin: 40px;
+    width: 40px;
+    height: 40px;
+    background: #328432;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+}
+@media screen and (max-width: 700px) {
+    .ticket__box {
+        width: auto;
+        margin: 0 auto;
+    }
+    .ticket__btn{
+        margin: 15px;
+    }
+}
