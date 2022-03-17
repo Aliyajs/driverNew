@@ -1,0 +1,314 @@
+.about__us{
+    background: #cdeecd;
+    height: 150%;
+    width: auto;
+    padding: 50px 0;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #424141;
+}
+.common__top{
+    display: flex;
+    grid-gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.big_krug{
+    background: rgba(6, 130, 51, 0.34);
+    border-radius: 50%;
+    width: 371px;
+    height: 371px;
+}
+.krug{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(6, 130, 51, 0.34);
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+}
+.history__text{
+    margin-top: 50px;
+}
+.made__history{
+    width: 558px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #555353;
+}
+.mission{
+    width: 536px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #555353;
+}
+.arguments__text{
+    text-align: center;
+}
+.common__middle{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.econom__time{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.econom__text{
+    font-weight: bold;
+    font-size: 20px;
+    color: #424141;
+    margin-left: 55px;
+}
+.training{
+    display: flex;
+    grid-gap: 5px;
+    background: #F8F7F7;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 280px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.clock{
+    width: 60px;
+    height: 63px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #F8F7F7;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.clock__text{
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #424141;
+}
+.choose__instructor{
+    margin-top: 25px;
+}
+.choose__text{
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #424141;
+    margin-left: 20px;
+    text-align: center;
+}
+.common__experience{
+    display: flex;
+    grid-gap: 8px;
+    background: #F8F7F7;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 240px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.experience{
+    width: 60px;
+    height: 63px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #F8F7F7;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.experience__text{
+    width: 55%;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #424141;
+    padding-top: 5px;
+}
+.price{
+    margin-top: 25px;
+}
+.price__text{
+    width: 203px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #424141;
+    margin-left: 30px;
+    text-align: center;
+}
+.with__instructors{
+    display: flex;
+    grid-gap: 8px;
+    background: #F8F7F7;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 280px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+}
+.person{
+    width: 60px;
+    height: 63px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #F8F7F7;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.person__text{
+    width: 55%;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #424141;
+}
+.wheel{
+    width: 330px;
+    height: 330px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: 20px solid #008D36;
+    padding: 5px;
+    margin-top: 30%;
+}
+.comfort__text{
+    width: 230px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #424141;
+    margin-left: 30px;
+    text-align: center;
+}
+.comfortable{
+    display: flex;
+    grid-gap: 8px;
+    background: #F8F7F7;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 300px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.schedule{
+    width: 60px;
+    height: 63px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #F8F7F7;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.schedule__text{
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 70%;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #424141;
+}
+.activity__text{
+    width: 230px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #424141;
+    margin-left: 30px;
+    text-align: center;
+}
+.area{
+    display: flex;
+    grid-gap: 8px;
+    background: #F8F7F7;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 280px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+}
+.location__text{
+    width: 70%;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #424141;
+    padding-left: 6px;
+}
+.location{
+    width: 63px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #F8F7F7;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.variant__text{
+    width: 245px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #424141;
+    margin-left: 30px;
+    text-align: center;
+}
+.study{
+    display: flex;
+    grid-gap: 8px;
+    background: #F8F7F7;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 300px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+}
+.book__text{
+    width: 70%;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #424141;
+    padding-left: 8px;
+}
+.book{
+    width: 63px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #F8F7F7;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 700px) {
+    .img{
+        width: 350px;
+        height: 361px;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .big_krug{
+        width: 300px;
+        height: 300px;
+    }
+    .krug{
+        top: 46%;
+        left: 50%;
+        width: 250px;
+        height: 240px;
+    }
+    .history__text{
+        padding: 0 15px;
+    }
+    .made__history{
+        width: auto;
+    }
+    .mission{
+        width: auto;
+    }
+}

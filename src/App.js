@@ -8,17 +8,19 @@ import Exam from './pages/exam/exam';
 import Auth from './pages/auth/auth';
 import KnowledgeBase from './pages/knowledgeBase/knowledgeBase';
 import ExamQuestion from './pages/examQuestion/examQuestion';
+import AboutUs from './pages/aboutUs/aboutUs';
 
 function App() {
   return (
     <div>
       {/* <Contacts/> */}
-      <UsefulInfo/>
+      {/* <UsefulInfo/> */}
       {/* <Comment/> */}
       {/* <Exam/> */}
       {/* <Auth/> */}
       {/* <KnowledgeBase/> */}
       {/* <ExamQuestion/> */}
+      <AboutUs/>
     </div>
   );
 }
